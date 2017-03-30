@@ -50,7 +50,37 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+{"kitchen": {
+  "cupboard": {
+    "cupboarditem": [
+      {"value": "bowls"},
+      {"value": "plates"}
+    ]
+  }
+},
+  "stove": {
+    "stoveelements": [
+     {"value": "small"},
+     {"value": "medium"},
+     {"value": "large"},
+     {"value": "extra large"}
+   ]
+ },
+  "spicerack": {
+    "spicerackelements-1": [
+     {"value": "chives"},
+     {"value": "lemon grass"},
+     {"value": "mint"}
+  ],
+    "spicerackelements-2": [
+     {"value": "cinnamon"},
+     {"value": "nutmeg"},
+     {"value": "vanilla"}
+  ]
+ }
+}
+
+
 ```
 
 ## Modeling Data Using JSON: Part II
